@@ -1,2 +1,2 @@
-def Ohce():
-    return "hola"
+def Ohce(nombre):
+    return nombre
