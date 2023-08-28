@@ -1,4 +1,4 @@
 from app.ohce import Ohce
 
-def test_Ohce():
-    assert Ohce() == "hola"
+def test_nombre():
+    assert Ohce("Pedro") == "Pedro"
