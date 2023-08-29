@@ -27,3 +27,7 @@ def test_bonita_palabra():
     # Test de bonita palabra
     palabra = "oto"
     assert Ohce(palabra) == palabra + "\n" +"¡Bonita palabra!"
+
+def test_adios():
+    # Test de adiós
+    assert Ohce("Stop!") == "Adios Pedro"
