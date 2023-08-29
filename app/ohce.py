@@ -11,7 +11,10 @@ def Ohce(string):
         else:
             return "¡Buenas noches " + string + "!"
     else:
-        return string[::-1]
+        if es_palindromo(string):
+            return string + "\n" +"¡Bonita palabra!"
+        else:
+            return string[::-1]
     
 def es_palindromo(string):
     return string == string[::-1]
