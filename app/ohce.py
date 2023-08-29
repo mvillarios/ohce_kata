@@ -10,3 +10,5 @@ def Ohce(string):
             return "¡Buenas tardes " + string + "!"
         else:
             return "¡Buenas noches " + string + "!"
+    else:
+        return string[::-1]
