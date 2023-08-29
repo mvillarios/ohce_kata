@@ -1,5 +1,6 @@
 from app.ohce import Ohce
 from datetime import datetime
+from app.ohce import es_palindromo
 
 # def test_nombre():
 #     assert Ohce("Pedro") == "Pedro"
@@ -17,3 +18,7 @@ def test_saludo_hora_inicio():
 def test_echo():
     # Test de echo
     assert Ohce("hola") == "aloh"
+
+def test_palindromo():
+    # Test de palíndromo
+    assert es_palindromo("oto") == True
