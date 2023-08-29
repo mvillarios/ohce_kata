@@ -13,3 +13,7 @@ def test_saludo_hora_inicio():
         assert Ohce("ohce Pedro") == "¡Buenas tardes Pedro!" # 12:00 - 20:00
     else:
         assert Ohce("ohce Pedro") == "¡Buenas noches Pedro!" # 20:00 - 6:00
+
+def test_echo():
+    # Test de echo
+    assert Ohce("hola") == "aloh"
