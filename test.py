@@ -22,3 +22,8 @@ def test_echo():
 def test_palindromo():
     # Test de palíndromo
     assert es_palindromo("oto") == True
+
+def test_bonita_palabra():
+    # Test de bonita palabra
+    palabra = "oto"
+    assert Ohce(palabra) == palabra + "\n" +"¡Bonita palabra!"
