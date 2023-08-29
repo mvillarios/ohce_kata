@@ -12,3 +12,6 @@ def Ohce(string):
             return "¡Buenas noches " + string + "!"
     else:
         return string[::-1]
+    
+def es_palindromo(string):
+    return string == string[::-1]
